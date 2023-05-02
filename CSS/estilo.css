@@ -20,3 +20,24 @@ header .buscar{
 #campo{
     border: 0;
 }
+
+header .acoes{
+    display: flex;
+    gap: 26px;
+}
+
+header .carrinho{
+    position: relative;
+    cursor: pointer;
+}
+
+header .carrinho span{
+    padding: 4px 6px;
+    border-radius: 6px;
+    font-size: 10px;
+    background-color: #C92071;
+    color: #FFFFFF;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
