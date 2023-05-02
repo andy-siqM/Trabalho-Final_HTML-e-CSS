@@ -8,8 +8,12 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Inter', sans-serif;
+    font-size: 16px;
 }
 
+body{
+    background-color: #E5E5E5;;
+}
 
 header .buscar{
     border: 1px solid gray;
@@ -20,3 +24,94 @@ header .buscar{
 #campo{
     border: 0;
 }
+footer {
+    height: 100%;
+    background: #111;
+    color: #d9d9d9;
+    padding: 30px ;
+    
+ }
+
+ footer .main-content {
+    display: flex;
+    flex-direction: row;
+    /* position: absolute; */
+    width: 1440px;
+    height: 454px;
+    gap: 50px;
+          
+ }
+
+
+ 
+ .main-content .center-box {
+    flex-basis: 50%;
+    padding: 16px;
+    width: 135px;
+    height: 228px;
+    left: 612px;
+    line-height: 38px;
+    
+  }
+
+.main-content .categorias {
+    line-height: 38px;
+   
+}
+
+.main-content .right-box {
+    line-height: 26px;
+
+}
+  
+.box h2{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box h1 {
+    font-weight: 600;
+    font-size: 36.3951px;
+    line-height: 44px;
+    
+}
+
+.box .content {
+    margin: 20px 0 0 0;
+
+
+}
+.box .content .social {
+    margin: 20px 0 0 0;
+}
+.box .content .social a{
+   padding: 0  2px; 
+
+}
+
+h6 {
+    text-align: center;
+    color: red;
+}
+
+ul li a {
+    color: #d9d9d9;
+}
+
+footer div a {
+    color: white;
+}
+
+.logo {
+    display: flex;
+    gap: 8px;
+}
+
+.container-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
