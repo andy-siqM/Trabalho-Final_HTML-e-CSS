@@ -25,10 +25,10 @@ header .buscar{
     border: 0;
 }
 footer {
-    height: 100%;
+    margin-top: 100px;
     background: #111;
     color: #d9d9d9;
-    padding: 30px ;
+    padding: 30px;
     
  }
 
@@ -36,9 +36,14 @@ footer {
     display: flex;
     flex-direction: row;
     /* position: absolute; */
+    align-items: center;
     width: 1440px;
     height: 454px;
-    gap: 50px;
+    margin-left: 30px;
+    border-bottom: 0.4px solid gray;
+    
+ 
+    /* gap: 50px; */
           
  }
 
@@ -46,22 +51,29 @@ footer {
  
  .main-content .center-box {
     flex-basis: 50%;
-    padding: 16px;
     width: 135px;
     height: 228px;
     left: 612px;
     line-height: 38px;
+    margin-right: 22px;
+    
     
   }
 
 .main-content .categorias {
     line-height: 38px;
+    padding-right: 50px;
+
    
 }
 
-.main-content .right-box {
-    line-height: 26px;
-
+.right-box {
+    flex-basis: 50%;
+    width: 135px;
+    height: 228px;
+    left: 612px;
+    line-height: 38px;
+    padding-left: 100px;
 }
   
 .box h2{
@@ -77,22 +89,22 @@ footer {
     
 }
 
-.box .content {
-    margin: 20px 0 0 0;
-
-
+.content {
+    margin-top: 30px;
+    
 }
 .box .content .social {
-    margin: 20px 0 0 0;
-}
-.box .content .social a{
-   padding: 0  2px; 
+    background-color: aqua;
+ 
 
 }
 
 h6 {
-    text-align: center;
-    color: red;
+    
+
+    padding-top: 48px; 
+         text-align: center; 
+    
 }
 
 ul li a {
@@ -103,15 +115,35 @@ footer div a {
     color: white;
 }
 
-.logo {
+.main-content .logo {
     display: flex;
     gap: 8px;
+    align-items: center;
+
 }
 
+.main-content .content p {
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 50px;
+    
+    
+}
+
+.main-content .social a{
+    /* padding: 30px; */
+   /* padding-left: 15px; */
+   padding-right: 15px;
+}
 .container-4{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 48px;
+}
+hr{
+    color: #d9d9d9;
+    
 }
 
