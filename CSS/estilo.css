@@ -8,8 +8,12 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Inter', sans-serif;
+    font-size: 16px;
 }
 
+body{
+    background-color: #E5E5E5;;
+}
 
 header .buscar{
     border: 1px solid gray;
@@ -20,3 +24,126 @@ header .buscar{
 #campo{
     border: 0;
 }
+footer {
+    margin-top: 100px;
+    background: #111;
+    color: #d9d9d9;
+    padding: 30px;
+    
+ }
+
+ footer .main-content {
+    display: flex;
+    flex-direction: row;
+    /* position: absolute; */
+    align-items: center;
+    width: 1440px;
+    height: 454px;
+    margin-left: 30px;
+    border-bottom: 0.4px solid gray;
+    
+ 
+    /* gap: 50px; */
+          
+ }
+
+
+ 
+ .main-content .center-box {
+    flex-basis: 50%;
+    width: 135px;
+    height: 228px;
+    left: 612px;
+    line-height: 38px;
+    margin-right: 22px;
+    
+    
+  }
+
+.main-content .categorias {
+    line-height: 38px;
+    padding-right: 50px;
+
+   
+}
+
+.right-box {
+    flex-basis: 50%;
+    width: 135px;
+    height: 228px;
+    left: 612px;
+    line-height: 38px;
+    padding-left: 100px;
+}
+  
+.box h2{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box h1 {
+    font-weight: 600;
+    font-size: 36.3951px;
+    line-height: 44px;
+    
+}
+
+.content {
+    margin-top: 30px;
+    
+}
+.box .content .social {
+    background-color: aqua;
+ 
+
+}
+
+h6 {
+    
+
+    padding-top: 48px; 
+         text-align: center; 
+    
+}
+
+ul li a {
+    color: #d9d9d9;
+}
+
+footer div a {
+    color: white;
+}
+
+.main-content .logo {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+}
+
+.main-content .content p {
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 50px;
+    
+    
+}
+
+.main-content .social a{
+    /* padding: 30px; */
+   /* padding-left: 15px; */
+   padding-right: 15px;
+}
+.container-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+hr{
+    color: #d9d9d9;
+    
+}
+
