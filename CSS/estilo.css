@@ -21,7 +21,6 @@ header .header-topo{
     justify-content: space-between;
     padding: 34px 100px;
     align-items: center;
-    gap: 2.25vw;
     background-color: #FFFFFF;
 }
 
@@ -50,10 +49,11 @@ header div h1{
 
 header .buscar{
     background-color: #47474710;
-    width: 560px;
+    width: 540px;
     height: 60px;
     border-radius: 8px;
     position: relative;
+    margin: 0 2vw;
 }
 
 header .buscar input{
@@ -117,9 +117,10 @@ header .logo{
 header .acoes{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 2vw;    
+    justify-content: space-between;    
 }
+
+
 
 header .acoes .signup a{
     font-weight: 400;
@@ -127,7 +128,12 @@ header .acoes .signup a{
     color: #474747;
     text-decoration: underline;
     text-underline-offset: 3px;
+    white-space: nowrap;
+    margin-right: 2vw;
+}
 
+header .carrinho{
+    margin-left: 5vw;
 }
 
 header .acoes .signup a:hover{
