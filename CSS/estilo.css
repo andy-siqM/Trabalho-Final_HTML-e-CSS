@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
 
 *{
     margin: 0;
@@ -7,7 +7,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Inter', sans-serif;
     /* font-size: 16px; */
 }
 
@@ -47,7 +47,7 @@ header .buscar input:focus{
     border-color: #C92071;
 }
 
-header .buscar btn{
+header .buscar .btn{
     width: 22px;
     height: 22px;
     border: 2px solid #66666650;
