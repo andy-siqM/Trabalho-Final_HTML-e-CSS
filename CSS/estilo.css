@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap'); */
 
 *{
     margin: 0;
@@ -7,23 +7,164 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 16px; */
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 105px;
+    align-items: center;
+    gap: 16px;
 }
 
 body{
-    background-color: #E5E5E5;;
+    background-color: #E5E5E5;
 }
 
 header .buscar{
-    border: 1px solid gray;
-    width: 559px;
+    background-color: #47474710;
+    width: 560px;
     height: 60px;
+    border-radius: 8px;
+    position: relative;
+}
+
+header .buscar input{
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    padding-left: 16px;
+    padding-right: 60px;
+    transition: all 300ms ease;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+header .buscar input:focus{
+    border-color: #C92071;
+}
+
+header .buscar btn{
+    width: 22px;
+    height: 22px;
+    border: 2px solid #66666650;
+    border-radius: 100%;
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    cursor: pointer;
+    transform: rotate(45deg);
+    transition-duration: 300ms;
+}
+
+header .buscar .btn::after{
+    content: "";
+    width: 6px;
+    height: 2px;
+    background-color: #66666650;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transition-duration: 300ms;
+}
+
+/* header .pesquisa .btn:active{
+    background-color: red;
+} */
+
+header .buscar .btn:hover{
+    border-color: #C92071;
+}
+
+header .buscar .btn:hover::after{
+    background-color: #C92071;
+}
+
+.titulo {
+    color: #C92071
+}
+
+header .logo{
+    display: flex;
+    gap: 8px;
+}
+
+header .signup{
+    background-color: white;
+    color: #474747;
+    text-decoration: underline;
+
+}
+
+header .signin{
+    background-color: #C92071;
+    color: white;
+    width: 114px;
+    height: 40px;
+    border-radius: 8px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+header nav ul{
+    display: flex;
+    padding-left: 105px;
+    margin-top: 20px;
+    gap: 32px; 
+}
+
+header nav ul li a{
+    color: #474747;
+    transition-duration: 300ms;
+}
+
+header nav ul li a:hover{
+    color: #C92071;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    font-weight: 700;
 }
 
 #campo{
     border: 0;
 }
+
+section{
+    margin: 16px;
+    display: flex;
+}
+
+.grade-de-produtos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+    gap: 1px;
+    padding: 1px;
+}
+
+.offers{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+    gap: 1px;
+    padding: 1px;
+    position: top;
+}
+
+.tenis img{
+    background-size: cover;
+    box-sizing: border-box;
+    background: #FFFFFF60;
+    box-shadow: 6px 16px 30px rgba(105, 98, 98, 0.12);
+    border-radius: 4px;
+}
+
+
 footer {
     margin-top: 100px;
     background: #111;
@@ -47,8 +188,6 @@ footer {
           
  }
 
-
- 
  .main-content .center-box {
     flex-basis: 50%;
     width: 135px;
