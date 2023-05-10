@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -8,14 +8,14 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Inter', sans-serif;
-    /* font-size: 16px; */
+    font-size: 16px;
 }
 
-html{
+html {
     overflow-x: hidden;
 }
 
-header .header-topo{
+header .header-topo {
     display: flex;
     width: 100vw;
     justify-content: space-between;
@@ -25,7 +25,7 @@ header .header-topo{
 }
 
 
-header .header-topo .logo-rosa{
+header .header-topo .logo-rosa {
     font-weight: 600;
     display: flex;
     min-width: 255px;
@@ -33,21 +33,21 @@ header .header-topo .logo-rosa{
 }
 
 
-header .header-baixo{
+header .header-baixo {
     width: 100vw;
     padding: 0 14vh 3vh;
     align-items: center;
     gap: 34px;
 }
 
-header div h1{
+header div h1 {
     font-weight: 600;
     font-size: 36.3951px;
     line-height: 44px;
     letter-spacing: -0.01em;
 }
 
-header .buscar{
+header .buscar {
     background-color: #47474710;
     width: 540px;
     height: 60px;
@@ -56,7 +56,7 @@ header .buscar{
     margin: 0 2vw;
 }
 
-header .buscar input{
+header .buscar input {
     width: 100%;
     height: 60px;
     background-color: transparent;
@@ -68,11 +68,11 @@ header .buscar input{
     border-radius: 8px;
 }
 
-header .buscar input:focus{
+header .buscar input:focus {
     border-color: #C92071;
 }
 
-header .buscar .btn{
+header .buscar .btn {
     width: 22px;
     height: 22px;
     border: 2px solid #66666650;
@@ -85,7 +85,7 @@ header .buscar .btn{
     transition-duration: 300ms;
 }
 
-header .buscar .btn::after{
+header .buscar .btn::after {
     content: "";
     width: 6px;
     height: 2px;
@@ -97,11 +97,11 @@ header .buscar .btn::after{
 }
 
 
-header .buscar .btn:hover{
+header .buscar .btn:hover {
     border-color: #C92071;
 }
 
-header .buscar .btn:hover::after{
+header .buscar .btn:hover::after {
     background-color: #C92071;
 }
 
@@ -109,20 +109,20 @@ header .buscar .btn:hover::after{
     color: #C92071
 }
 
-header .logo{
+header .logo {
     display: flex;
     gap: 8px;
 }
 
-header .acoes{
+header .acoes {
     display: flex;
     align-items: center;
-    justify-content: space-between;    
+    justify-content: space-between;
 }
 
 
 
-header .acoes .signup a{
+header .acoes .signup a {
     font-weight: 400;
     font-size: 14px;
     color: #474747;
@@ -132,15 +132,15 @@ header .acoes .signup a{
     margin-right: 2vw;
 }
 
-header .carrinho{
+header .carrinho {
     margin-left: 5vw;
 }
 
-header .acoes .signup a:hover{
+header .acoes .signup a:hover {
     color: #C92071;
 }
 
-header .signin{
+header .signin {
     font-weight: 700;
     letter-spacing: 0.75px;
     background-color: #C92071;
@@ -152,39 +152,117 @@ header .signin{
     transition-duration: 300ms;
 }
 
-header .signin:hover{
+header .signin:hover {
     background-color: #9e1859;
 }
 
-header nav ul{
+header nav ul {
     display: flex;
-    gap: 3vw; 
+    gap: 3vw;
     font-weight: 400;
     font-size: 16px;
 }
 
-header nav ul li a{
+header nav ul li a {
     color: #474747;
     transition-duration: 300ms;
 }
 
-header nav ul li a:hover{
+header nav ul li a:hover {
     color: #C92071;
     text-decoration: underline;
     text-underline-offset: 7px;
     font-weight: bold;
 }
 
-#campo{
-    border: 0;
-}
-
-section{
-    margin: 16px;
+main .banner {
+    width: 100%;
+    height: 681px;
+    background-color: #F5F5F5;
+    align-content: center;
+    position: relative;
     display: flex;
 }
 
-.grade-de-produtos{
+main .banner .container1 {
+    margin: 124px 100px;
+}
+
+main .banner .container1 h2 {
+    color: #F6AA1C;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    width: 280px;
+    white-space: nowrap;
+    margin-bottom: 3vh;
+}
+
+main .banner .container1 h1 {
+    width: 510px;
+    color: #1f1f1f;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 66px;
+    letter-spacing: 1px;
+    margin-bottom: 3vh;
+}
+
+main .banner .container1 p {
+    width: 495px;
+    color: #474747;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: justify;
+    margin-bottom: 5.7vh;
+}
+
+main .banner .container1 .ofertas {
+    background-color: #C92071;
+    color: #F5F5F5;
+    padding: 12px 60px;
+    border-style: none;
+    border-radius: 8px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+
+main .container1 .ofertas:hover {
+    background-color: #9e1859;
+}
+
+main .container2 {
+    display: flex;
+    position: relative;
+}
+
+main .container2 .tenis img{
+    background-size: cover;
+    box-sizing: border-box;
+    border-radius: 4px;
+    position: absolute;
+/* AJEITAR POSICAO DO TENIS */
+}
+
+main .ornamento img {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 11vh;
+    left: 35vw;
+}
+
+
+#campo {
+    border: 0;
+}
+
+
+.grade-de-produtos {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -193,7 +271,7 @@ section{
     padding: 1px;
 }
 
-.offers{
+.offers {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -203,24 +281,16 @@ section{
     position: top;
 }
 
-.tenis img{
-    background-size: cover;
-    box-sizing: border-box;
-    background: #FFFFFF60;
-    box-shadow: 6px 16px 30px rgba(105, 98, 98, 0.12);
-    border-radius: 4px;
-}
-
 
 footer {
     margin-top: 100px;
     background: #111;
     color: #d9d9d9;
     padding: 30px;
-    
- }
 
- footer .main-content {
+}
+
+footer .main-content {
     display: flex;
     flex-direction: row;
     /* position: absolute; */
@@ -229,28 +299,26 @@ footer {
     height: 454px;
     margin-left: 30px;
     border-bottom: 0.4px solid gray;
-    
- 
-    /* gap: 50px; */
-          
- }
 
- .main-content .center-box {
+
+    /* gap: 50px; */
+
+}
+
+.main-content .center-box {
     flex-basis: 50%;
     width: 135px;
     height: 228px;
     left: 612px;
     line-height: 38px;
     margin-right: 22px;
-    
-    
-  }
+
+
+}
 
 .main-content .categorias {
     line-height: 38px;
     padding-right: 50px;
-
-   
 }
 
 .right-box {
@@ -261,8 +329,8 @@ footer {
     line-height: 38px;
     padding-left: 100px;
 }
-  
-.box h2{
+
+.box h2 {
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
@@ -272,25 +340,26 @@ footer {
     font-weight: 600;
     font-size: 36.3951px;
     line-height: 44px;
-    
+
 }
 
 .content {
     margin-top: 30px;
-    
+
 }
+
 .box .content .social {
     background-color: aqua;
- 
+
 
 }
 
 h6 {
-    
 
-    padding-top: 48px; 
-         text-align: center; 
-    
+
+    padding-top: 48px;
+    text-align: center;
+
 }
 
 ul li a {
@@ -313,23 +382,24 @@ footer div a {
     margin-top: 30px;
     margin-bottom: 30px;
     height: 50px;
-    
-    
+
+
 }
 
-.main-content .social a{
+.main-content .social a {
     /* padding: 30px; */
-   /* padding-left: 15px; */
-   padding-right: 15px;
+    /* padding-left: 15px; */
+    padding-right: 15px;
 }
-.container-4{
+
+.container-4 {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 48px;
 }
-hr{
-    color: #d9d9d9;
-    
-}
 
+hr {
+    color: #d9d9d9;
+
+}
