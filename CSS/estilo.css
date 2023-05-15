@@ -270,11 +270,12 @@ main .bolinhas .bolinha {
     height: 12px;
     width: 12px;
     border-radius: 50%;
+    transition-duration: 250ms;
 }
 
 main .bolinhas .bolinha:hover {
-    background-color: #808080;
-    }
+    background-color: #949393;
+}
 
 main .bolinhas .bolinha-ativa {
     background-color: #C92071;
@@ -284,8 +285,81 @@ main .bolinhas .bolinha-ativa {
 }
 
 
-#campo {
-    border: 0;
+main .container3 {
+    background-color: #F9F8FE;
+    padding-top: 6vh;
+}
+
+main .container3 h2 {
+    margin-left: 7%;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+main .colecoes1 {
+    display: flex;
+    gap: 12px;
+}
+
+main .container3-1 {
+    background-color: #D8E3F2;
+    height: 251px;
+    width: 405px;
+    left: 100px;
+    top: 971px;
+    border-radius: 8px;
+    margin-left: 7%;
+    padding: 30px;
+}
+
+main h5 {
+    background-color: #E7FF86;
+    width: 96px;
+    height: 32px;
+    border-radius: 29px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    letter-spacing: 0.75px;
+    color: #474747;
+    margin: 5px 0 10px 0;
+}
+
+main h4 {
+    width: 172px;
+    color: #1F1F1F;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 1px;
+}
+
+main .colecoes1 button {
+    width: 153px;
+    height: 48px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: #C92071;
+    transition-duration: 250ms;
+}
+
+main button:hover {
+    background-color: #C92071;
+    color: white;
+}
+
+.colecoes1 .container3-1 img {
+    position: absolute;
 }
 
 
