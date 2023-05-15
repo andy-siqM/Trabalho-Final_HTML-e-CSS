@@ -240,20 +240,47 @@ main .container2 {
     position: relative;
 }
 
-main .container2 .tenis img{
+main .container2 .tenis img {
     background-size: cover;
+    width: 870px;
     box-sizing: border-box;
-    border-radius: 4px;
     position: absolute;
-/* AJEITAR POSICAO DO TENIS */
+    left: -200px;
+
 }
 
 main .ornamento img {
     width: 140px;
     height: 140px;
     position: absolute;
-    top: 11vh;
-    left: 35vw;
+    top: 78px;
+    left: 540px;
+}
+
+main .bolinhas {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    display: flex;
+    gap: 10px;
+}
+
+main .bolinhas .bolinha {
+    background-color: #CCCCCC;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+}
+
+main .bolinhas .bolinha:hover {
+    background-color: #808080;
+    }
+
+main .bolinhas .bolinha-ativa {
+    background-color: #C92071;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
 }
 
 
